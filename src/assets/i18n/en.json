@@ -1,0 +1,5 @@
+{
+  "Title": "Translation example",
+  "Intro": "Hello I am Arthur, I am %0 %1 years old.",
+  "IntroBis": "Hello I am {{name}}, I am  {{age}} years old."
+}

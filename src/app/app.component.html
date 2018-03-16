@@ -1,0 +1,38 @@
+<h1 translate>Title</h1>
+
+
+<button (click)="switchLanguage('en')">en</button>
+
+<button (click)="switchLanguage('fr')">fr</button>
+
+<div >
+  {{ 'IntroBis' | translate: {name:'simo' , age:15} }}
+</div>
+
+
+<div>
+  {{ getInfo() }}
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p>
+  NB: If you still use the Angular 4 get the latest compatible version (7.2.2):
+  <br>
+  npm install @ngx-translate/core@^7.2.2 --save
+  <br>
+  npm install @ngx-translate/http-loader --save
+
+</p>
+
+
+
+<br>
+<br>
+<br>
+
+https://medium.com/letsboot/translate-angular-4-apps-with-ngx-translate-83302fb6c10d
